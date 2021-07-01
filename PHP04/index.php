@@ -12,7 +12,7 @@
     echo '<ol>';
     while($reg=$resultado->fetch_assoc()){
         echo '<li>';
-        echo '<a href="http://localhost/dev/PHP04/detalle.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
+        echo '<a href="https://phpfirstappghacademy.herokuapp.com/detalle.php?id='.$reg['id'].'&titulo='.$reg['titulo'].'">'.$reg['titulo'].'</a>';
         echo '</li>';
     }
     echo '</ol>';
